@@ -62,10 +62,6 @@ grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 grid-gap: 60px;
 /* width: 60%; */
 margin-top: 4%;
-
-
-
-/* padding: 20px; */
 place-items:center;
 }
 
@@ -87,10 +83,17 @@ place-items:center;
 /* .recipe img{
     height: 300px;
 } */
-
-.recipe h3{
-    font-size: 24px;
+.recipe-container h2{
+    font-size: 34px;
     margin-block: 5px;
+    justify-content: center;
+     color: red;
+}
+.recipe-container h3{
+    font-size: 34px;
+    margin-block: 5px;
+    color: red;
+    justify-content: center;
 }
 
 .recipe p{
@@ -221,7 +224,7 @@ body::-webkit-scrollbar-track{
     
     /* Main Section */
     
-    .recipe-container h2{
+    .recipe-container {
         color: black;
         font-size: 10px;
         justify-content: center;
@@ -243,10 +246,22 @@ body::-webkit-scrollbar-track{
         height: 200px;
     }
      */
-    .recipe h3{
-        font-size: 16px;
+     .recipe-container h2{
+        font-size: 14px;
+        margin-block: 5px;
+        justify-content: center;
+        margin-left: 50px;
+         color: red;
     }
-    
+     .recipe-container h3{
+        font-size: 14px;
+        margin-block: 5px;
+        color: red;
+        justify-content: center;
+        align-items: center;
+        margin-left: 50px;
+
+    }
     .recipe p{
         font-size: 12px;
     }
@@ -286,7 +301,7 @@ margin-left:15px;
   
 }
 }
-@media screen and (min-width:300px) and (max-width:600px){
+@media screen and (min-width:350px) and (max-width:600px){
     body{
         background-color: black;
         color: #fff;
@@ -318,7 +333,7 @@ margin-left:15px;
 
     /* Main Section */
     
-    .recipe-container h2{
+    .recipe-container{
         color: black;
         font-size: 15px;
         justify-content: center;
@@ -337,11 +352,21 @@ margin-left:15px;
     /* .recipe img{
         height: 200px;
     } */
-    
-    .recipe h3{
-        font-size: 18px;
+    .recipe-container h2{
+        font-size: 24px;
+        margin-block: 5px;
+        justify-content: center;
+        margin-left: 50px;
+         color: red;
     }
-    
+    .recipe-container h3{
+        font-size: 24px;
+        margin-block: 5px;
+        color: red;
+        justify-content: center;
+
+    }
+     */
     .recipe p{
         font-size: 15px;
     }
